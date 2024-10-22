@@ -7,9 +7,7 @@
   "scripts": {
     "start": "node ./server.js",
     "dev": "nodemon ./server.js",
-    "cargarDatos": "node ./data/storeData.js",
-    "cargarProductos": "node ./data/productData.js",
-    "cargarEmpleados": "node ./data/employeeData.js"
+    "cargarDatos": "node ./data/citiesData.js"
   },
   "keywords": [],
   "author": "",

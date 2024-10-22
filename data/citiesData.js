@@ -1,8 +1,8 @@
 import 'dotenv/config.js';
 import '../config/dataBase.js';
-import Store from '../models/Store.js';
+import City from '../models/City.js';
 
-const tiendas = [
+const cities = [
     { name: 'New York', photo: 'https://example.com/newyork.jpg', country: 'United States', continent: 'North America', description: 'The most populous city in the United States.', currency: 'USD' },
     { name: 'Paris', photo: 'https://example.com/paris.jpg', country: 'France', continent: 'Europe', description: 'The capital of France, known for its art, fashion, and culture.', currency: 'EUR' },
     { name: 'Tokyo', photo: 'https://example.com/tokyo.jpg', country: 'Japan', continent: 'Asia', description: 'The bustling capital of Japan, a major economic hub.', currency: 'JPY' },
@@ -21,12 +21,12 @@ const tiendas = [
 ];
 
 // Insertar las tiendas en la base de datos
-Store.insertMany(tiendas)
+City.insertMany(cities)
     .then(() => {
-        console.log("Tiendas insertadas exitosamente");
+        console.log("Ciudades insertadas exitosamente");
         process.exit();
     })
     .catch(error => {
-        console.error("Error insertando tiendas:", error);
+        console.error("Error insertando ciudades:", error);
         process.exit(1);
     });
