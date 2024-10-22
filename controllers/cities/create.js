@@ -17,6 +17,6 @@ export const createCity = async (req, res) => {
         await newCity.save();
         res.status(201).json(newCity);
     } catch (error) {
-        res.status(500).json({ message: 'Error al crear la ciudad', error });
+        res.status(500).json({ message: 'Error creating city', error });
     }
 };

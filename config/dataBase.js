@@ -1,18 +1,17 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
-dotenv.config();  // Cargar las variables de entorno desde el archivo .env
+dotenv.config();
 
 const uri = process.env.URI_MONGO;
 
 if (!uri) {
-    console.error('Error: URI_MONGO no está definida en el archivo .env');
-    process.exit(1);  // Cerrar la aplicación si la URI no está definida
+    console.error('Error: URI_MONGO not defined in the file .env');
+    process.exit(1);
 }
 
-// Conectar a MongoDB sin las opciones obsoletas
 mongoose.connect(uri)
-    .then(() => console.log('Conexión a MongoDB exitosa'))
+    .then(() => console.log('Connection to MongoDB successful'))
     .catch((error) => {
-        console.error('Error conectando a la base de datos:', error);
+        console.error('Error connecting to the database:', error);
     });

@@ -23,10 +23,10 @@ const cities = [
 // Insertar las tiendas en la base de datos
 City.insertMany(cities)
     .then(() => {
-        console.log("Ciudades insertadas exitosamente");
+        console.log("Cities successfully inserted");
         process.exit();
     })
     .catch(error => {
-        console.error("Error insertando ciudades:", error);
+        console.error("Error inserting cities:", error);
         process.exit(1);
     });

@@ -5,8 +5,8 @@ import { getCities, getCityById } from '../controllers/cities/read.js';
 const router = express.Router();
 
 // Definir las rutas
-router.get('/AllCities', getCities);           // Obtener todas las ciudades
-router.get('/CitiesByID/:id', getCityById);    // Obtener una ciudad por ID
-router.post('/CreateCity', createCity);        // Crear una nueva ciudad
+router.get('/AllCities', getCities);
+router.get('/CitiesByID/:id', getCityById);
+router.post('/CreateCity', createCity);
 
 export default router;
