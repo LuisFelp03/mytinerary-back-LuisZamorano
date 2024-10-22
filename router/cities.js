@@ -5,8 +5,10 @@ import { getCities, getCityById } from '../controllers/cities/read.js';
 const router = express.Router();
 
 // Definir las rutas
-router.get('/AllCities', getCities);
-router.get('/CitiesByID/:id', getCityById);
-router.post('/CreateCity', createCity);
+router.post('/CreateCity', createCity);           // Cargar una ciudad
+router.get('/AllCities', getCities);              // Obtener todas las ciudades
+router.get('/CityByID/:id', getCityById);         // Obtener una ciudad por ID
+router.put('/UpdateCity/:id', updateCity);        // Modificar una ciudad
+router.delete('/DeleteCity/:id', deleteCity);     // Borrar una ciudad
 
 export default router;

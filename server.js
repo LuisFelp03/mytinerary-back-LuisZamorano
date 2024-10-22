@@ -4,7 +4,6 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import error_handler from './middlewares/error_handler.js';
 import not_found_handler from './middlewares/not_found_handler.js';
-
 import './config/dataBase.js';
 import routerIndex from './router/index.js'
 
