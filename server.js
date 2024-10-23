@@ -4,6 +4,7 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import error_handler from './middlewares/error_handler.js';
 import not_found_handler from './middlewares/not_found_handler.js';
+import bad_request_handler from './middlewares/bad_request_handler.js';
 import './config/dataBase.js';
 import routerIndex from './router/index.js';
 
@@ -24,6 +25,9 @@ server.use(not_found_handler);
 
 // Manejador de errores (va después de las rutas)
 server.use(error_handler);
+
+// solicitudes mal formadas
+server.use(bad_request_handler);
 
 server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
