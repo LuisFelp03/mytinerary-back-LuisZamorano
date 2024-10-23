@@ -2,7 +2,19 @@ import City from '../../models/City.js';
 
 export const getCities = async (req, res) => {
     try {
-        const cities = await City.find();
+        let { name, country } = req.query
+        console.log(name);
+        console.log(country);
+        let query = {}
+
+        if (name == true) {
+
+            query.name = { $regex: '^' + name + '.*', $option: 'i' }
+
+        }
+
+
+        const cities = await City.find(query);
         res.status(200).json(cities);
     } catch (error) {
         res.status(500).json({ message: "Error fetching cities", error });
