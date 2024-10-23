@@ -3,7 +3,7 @@ import '../config/dataBase.js';
 import City from '../models/City.js';
 
 const cities = [
-    { name: 'New York', photo: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/aa/b1/79/caption.jpg?w=1200&h=-1&s=1', country: 'United States', continent: 'North America', description: 'The most populous city in the United States.', currency: 'USD' },
+    { name: 'New York', photo: 'https://image.nuevayork.com/wp-content/uploads/2020/03/New-York-Helicopter-Tour-2.eric_both.bottom_right.jpg.webp', country: 'United States', continent: 'North America', description: 'The most populous city in the United States.', currency: 'USD' },
     { name: 'Paris', photo: 'https://media.iatiseguros.com/wp-content/uploads/sites/6/2018/12/01065501/torre-eiffel-paris.jpg', country: 'France', continent: 'Europe', description: 'The capital of France, known for its art, fashion, and culture.', currency: 'EUR' },
     { name: 'Tokyo', photo: 'https://assets.editorial.aetnd.com/uploads/2013/07/gettyimages-1390815938.jpg', country: 'Japan', continent: 'Asia', description: 'The bustling capital of Japan, a major economic hub.', currency: 'JPY' },
     { name: 'Sydney', photo: 'https://media.tatler.com/photos/6141d37b9ce9874a3e40107d/16:9/w_2560%2Cc_limit/social_crop_sydney_opera_house_gettyimages-869714270.jpg', country: 'Australia', continent: 'Australia', description: 'Famous for the Sydney Opera House and beautiful beaches.', currency: 'AUD' },
