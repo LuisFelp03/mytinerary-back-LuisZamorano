@@ -5,277 +5,278 @@ import Itinerary from "../Itinerary.js";
 const itineraries = [
     {
         "userName": "Juan Pérez",
-        "userPhoto": "https://robohash.org/juanperez.png",
+        "userPhoto": "https://plus.unsplash.com/premium_photo-1673866484792-c5a36a6c025e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
         "price": 4,
         "duration": 3,
-        "hashtags": ["#Cultura", "#Aventura", "#Historia", "#Exploración", "#Viajes"],
-        "city": "64fa501d4bbe915a1f740580"
+        "hashtags": ["#Culture", "#Adventure", "#History", "#Exploration", "#Travel"],
+        "city": ""
     },
     {
         "userName": "Ana Gómez",
-        "userPhoto": "https://robohash.org/anagomez.png",
+        "userPhoto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": 5,
         "duration": 5,
-        "hashtags": ["#Gastronomía", "#Viajes", "#Comida", "#Cultura", "#Sabor"],
-        "city": "64fa501d4bbe915a1f740580"
+        "hashtags": ["#Gastronomy", "#Travel", "#Food", "#Culture", "#Flavor"],
+        "city": ""
     },
     {
         "userName": "Diego Fernández",
-        "userPhoto": "https://robohash.org/diegofernandez.png",
+        "userPhoto": "https://unsplash.com/photos/man-in-black-beanie-cap-kVg2DQTAK7c",
         "price": 3,
         "duration": 3,
-        "hashtags": ["#Cultura", "#Música", "#Entretenimiento", "#Fiestas", "#Vibras"],
-        "city": "64fa501d4bbe915a1f740580"
+        "hashtags": ["#Culture", "#Music", "#Entertainment", "#Parties", "#Vibes"],
+        "city": ""
     },
     {
         "userName": "Sofía Martínez",
-        "userPhoto": "https://robohash.org/sofiamartinez.png",
+        "userPhoto": "https://images.unsplash.com/photo-1499557354967-2b2d8910bcca?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "price": 4,
         "duration": 4,
-        "hashtags": ["#Cultura", "#Arquitectura", "#Arte", "#Historia", "#Diseño"],
-        "city": "64fa501d4bbe915a1f740580"
+        "hashtags": ["#Culture", "#Architecture", "#Art", "#History", "#Design"],
+        "city": ""
     },
     {
         "userName": "Lucas Silva",
-        "userPhoto": "https://robohash.org/lucassilva.png",
+        "userPhoto": "",
         "price": 2,
         "duration": 2,
-        "hashtags": ["#Noche", "#Diversión", "#Fiesta", "#Música", "#Social"],
-        "city": "64fa501d4bbe915a1f740581"
+        "hashtags": ["#Night", "#Fun", "#Party", "#Music", "#Social"],
+        "city": ""
     },
     {
         "userName": "Thiago Costa",
-        "userPhoto": "https://robohash.org/thiagocosta.png",
+        "userPhoto": "",
         "price": 5,
         "duration": 5,
-        "hashtags": ["#Cerveza", "#Nocturno", "#Diversión", "#Relax", "#Amigos"],
-        "city": "64fa501d4bbe915a1f740581"
+        "hashtags": ["#Beer", "#Nightlife", "#Fun", "#Relax", "#Friends"],
+        "city": ""
     },
     {
         "userName": "Fernanda Lima",
-        "userPhoto": "https://robohash.org/fernandalima.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 3,
-        "hashtags": ["#Cultura", "#Gastronomía", "#Delicias", "#Viajes", "#Comida"],
-        "city": "64fa501d4bbe915a1f740581"
+        "hashtags": ["#Culture", "#Gastronomy", "#Delights", "#Travel", "#Food"],
+        "city": ""
     },
     {
         "userName": "María Rodríguez",
-        "userPhoto": "https://robohash.org/mariarodriguez.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 4,
-        "hashtags": ["#Playas", "#Relax", "#Naturaleza", "#Verano", "#Sol"],
-        "city": "64fa501d4bbe915a1f74058d"
+        "hashtags": ["#Beaches", "#Relax", "#Nature", "#Summer", "#Sun"],
+        "city": ""
     },
     {
         "userName": "Mariana Silva",
-        "userPhoto": "https://robohash.org/marianasilva.png",
+        "userPhoto": "",
         "price": 5,
         "duration": 5,
-        "hashtags": ["#Fiestas", "#Diversión", "#Celebración", "#Amigos", "#Música"],
-        "city": "64fa501d4bbe915a1f74058d"
+        "hashtags": ["#Parties", "#Fun", "#Celebration", "#Friends", "#Music"],
+        "city": ""
     },
     {
         "userName": "Carlos López",
-        "userPhoto": "https://robohash.org/carloslopez.png",
+        "userPhoto": "",
         "price": 1,
         "duration": 1,
-        "hashtags": ["#Naturaleza", "#Senderismo", "#Aventura", "#Ejercicio", "#Exploración"],
-        "city": "64fa501d4bbe915a1f740587"
+        "hashtags": ["#Nature", "#Hiking", "#Adventure", "#Exercise", "#Exploration"],
+        "city": ""
     },
     {
         "userName": "María López",
-        "userPhoto": "https://robohash.org/marialopez.png",
+        "userPhoto": "",
         "price": 1,
         "duration": 1,
-        "hashtags": ["#Senderismo", "#Naturaleza", "#Aventura", "#Salud", "#Ejercicio"],
-        "city": "64fa501d4bbe915a1f740587"
+        "hashtags": ["#Hiking", "#Nature", "#Adventure", "#Health", "#Exercise"],
+        "city": ""
     },
     {
         "userName": "Nicolás Vargas",
-        "userPhoto": "https://robohash.org/nicolasvargas.png",
+        "userPhoto": "",
         "price": 2,
         "duration": 2,
-        "hashtags": ["#Cultura", "#Música", "#Arte", "#Diversión", "#Entretenimiento"],
-        "city": "64fa501d4bbe915a1f740587"
+        "hashtags": ["#Culture", "#Music", "#Art", "#Fun", "#Entertainment"],
+        "city": ""
     },
     {
         "userName": "Lucía Fernández",
-        "userPhoto": "https://robohash.org/luciafernandez.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 4,
-        "hashtags": ["#Arte", "#Cultura", "#Historia", "#Creatividad", "#Inspiración"],
-        "city": "64fa501d4bbe915a1f740589"
+        "hashtags": ["#Art", "#Culture", "#History", "#Creativity", "#Inspiration"],
+        "city": ""
     },
     {
         "userName": "Juliana Castro",
-        "userPhoto": "https://robohash.org/julianacastro.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 3,
-        "hashtags": ["#Aventura", "#Caminatas", "#Naturaleza", "#Exploración", "#Ejercicio"],
-        "city": "64fa501d4bbe915a1f740589"
+        "hashtags": ["#Adventure", "#Hiking", "#Nature", "#Exploration", "#Exercise"],
+        "city": ""
     },
     {
         "userName": "Fernando Castro",
-        "userPhoto": "https://robohash.org/fernandocastro.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 3,
-        "hashtags": ["#Aventura", "#Caminatas", "#Naturaleza", "#Salud", "#Ejercicio"],
-        "city": "64fa501d4bbe915a1f74058b"
+        "hashtags": ["#Adventure", "#Hiking", "#Nature", "#Health", "#Exercise"],
+        "city": ""
     },
     {
         "userName": "Santiago López",
-        "userPhoto": "https://robohash.org/santiagolopez.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 4,
-        "hashtags": ["#Caminatas", "#Naturaleza", "#Aventura", "#Exploración", "#Ejercicio"],
-        "city": "64fa501d4bbe915a1f74058b"
+        "hashtags": ["#Hiking", "#Nature", "#Adventure", "#Exploration", "#Exercise"],
+        "city": ""
     },
     {
         "userName": "Isabel Torres",
-        "userPhoto": "https://robohash.org/isabeltorres.png",
+        "userPhoto": "",
         "price": 5,
         "duration": 6,
-        "hashtags": ["#Gastronomía", "#Cultura", "#Comida", "#Viajes", "#Delicias"],
-        "city": "64fa501d4bbe915a1f74058c"
+        "hashtags": ["#Gastronomy", "#Culture", "#Food", "#Travel", "#Delights"],
+        "city": ""
     },
     {
         "userName": "Juan Carlos",
-        "userPhoto": "https://robohash.org/juancarlos.png",
+        "userPhoto": "",
         "price": 2,
         "duration": 4,
-        "hashtags": ["#Bailes", "#Noche", "#Diversión", "#Fiesta", "#Música"],
-        "city": "64fa501d4bbe915a1f74058c"
+        "hashtags": ["#Dances", "#Night", "#Fun", "#Party", "#Music"],
+        "city": ""
     },
     {
         "userName": "Isabella Torres",
-        "userPhoto": "https://robohash.org/isabellatorres.png",
+        "userPhoto": "",
         "price": 2,
         "duration": 4,
-        "hashtags": ["#Fiestas", "#Noche", "#Diversión", "#Celebración", "#Amigos"],
-        "city": "64fa501d4bbe915a1f74058c"
+        "hashtags": ["#Parties", "#Night", "#Fun", "#Celebration", "#Friends"],
+        "city": ""
     },
     {
         "userName": "Ricardo González",
-        "userPhoto": "https://robohash.org/ricardogonzalez.png",
+        "userPhoto": "",
         "price": 2,
         "duration": 4,
-        "hashtags": ["#Fiestas", "#Noche", "#Diversión", "#Celebración", "#Música"],
-        "city": "64fa501d4bbe915a1f740588"
+        "hashtags": ["#Parties", "#Night", "#Fun", "#Celebration", "#Music"],
+        "city": ""
     },
     {
         "userName": "Claudia Pérez",
-        "userPhoto": "https://robohash.org/claudiaperez.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 3,
-        "hashtags": ["#Cultura", "#Gastronomía", "#Delicias", "#Comida", "#Viajes"],
-        "city": "64fa501d4bbe915a1f740588"
+        "hashtags": ["#Culture", "#Gastronomy", "#Delights", "#Food", "#Travel"],
+        "city": ""
     },
     {
         "userName": "Clara Jiménez",
-        "userPhoto": "https://robohash.org/clarajimenez.png",
+        "userPhoto": "",
         "price": 1,
         "duration": 2,
-        "hashtags": ["#Historia", "#Arquitectura", "#Cultura", "#Exploración", "#Arte"],
-        "city": "64fa501d4bbe915a1f74058e"
+        "hashtags": ["#History", "#Architecture", "#Culture", "#Exploration", "#Art"],
+        "city": ""
     },
     {
         "userName": "David Morales",
-        "userPhoto": "https://robohash.org/davidmorales.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 5,
-        "hashtags": ["#Cultura", "#Arte", "#Historia", "#Exploración", "#Viajes"],
-        "city": "64fa501d4bbe915a1f74058e"
+        "hashtags": ["#Culture", "#Art", "#History", "#Exploration", "#Travel"],
+        "city": ""
     },
     {
         "userName": "Verónica Ramos",
-        "userPhoto": "https://robohash.org/veronicramos.png",
+        "userPhoto": "",
         "price": 5,
         "duration": 5,
-        "hashtags": ["#Cultura", "#Gastronomía", "#Comida", "#Delicias", "#Viajes"],
-        "city": "64fa501d4bbe915a1f74058e"
+        "hashtags": ["#Culture", "#Gastronomy", "#Food", "#Delights", "#Travel"],
+        "city": ""
     },
     {
         "userName": "María González",
-        "userPhoto": "https://robohash.org/mariagonzalez.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 3,
-        "hashtags": ["#Cultura", "#Historia", "#Exploración", "#Arte", "#Viajes"],
-        "city": "64fa501d4bbe915a1f740583"
+        "hashtags": ["#Culture", "#History", "#Exploration", "#Art", "#Travel"],
+        "city": ""
     },
     {
         "userName": "Luis Miguel",
-        "userPhoto": "https://robohash.org/luismiguel.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 4,
-        "hashtags": ["#Gastronomía", "#Aventura", "#Delicias", "#Cultura", "#Comida"],
-        "city": "64fa501d4bbe915a1f740583"
+        "hashtags": ["#Gastronomy", "#Adventure", "#Delights", "#Culture", "#Food"],
+        "city": ""
     },
     {
         "userName": "Alberto Pérez",
-        "userPhoto": "https://robohash.org/albertoperez.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 3,
-        "hashtags": ["#Cultura", "#Cerveza", "#Nocturno", "#Diversión", "#Amigos"],
-        "city": "64fa501d4bbe915a1f740584"
+        "hashtags": ["#Culture", "#Beer", "#Nightlife", "#Fun", "#Friends"],
+        "city": ""
     },
     {
         "userName": "Tatiana Herrera",
-        "userPhoto": "https://robohash.org/tatianaherrera.png",
+        "userPhoto": "",
         "price": 5,
         "duration": 5,
-        "hashtags": ["#Gastronomía", "#Viajes", "#Delicias", "#Comida", "#Cultura"],
-        "city": "64fa501d4bbe915a1f740584"
+        "hashtags": ["#Gastronomy", "#Travel", "#Delights", "#Food", "#Culture"],
+        "city": ""
     },
     {
         "userName": "Fernando González",
-        "userPhoto": "https://robohash.org/fernandogonzalez.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 3,
-        "hashtags": ["#Historia", "#Arquitectura", "#Cultura", "#Arte", "#Exploración"],
-        "city": "64fa501d4bbe915a1f740585"
+        "hashtags": ["#History", "#Architecture", "#Culture", "#Art", "#Exploration"],
+        "city": ""
     },
     {
         "userName": "María Luisa",
-        "userPhoto": "https://robohash.org/marialuisa.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 4,
-        "hashtags": ["#Cultura", "#Aventura", "#Exploración", "#Naturaleza", "#Viajes"],
-        "city": "64fa501d4bbe915a1f740585"
+        "hashtags": ["#Culture", "#Adventure", "#Exploration", "#Nature", "#Travel"],
+        "city": ""
     },
     {
         "userName": "Andrés Castro",
-        "userPhoto": "https://robohash.org/andrescastro.png",
+        "userPhoto": "",
         "price": 5,
         "duration": 5,
-        "hashtags": ["#Cerveza", "#Música", "#Diversión", "#Nocturno", "#Fiestas"],
-        "city": "64fa501d4bbe915a1f740586"
+        "hashtags": ["#Beer", "#Music", "#Fun", "#Nightlife", "#Parties"],
+        "city": ""
     },
     {
         "userName": "Camila Fernández",
-        "userPhoto": "https://robohash.org/camilafernandez.png",
+        "userPhoto": "",
         "price": 3,
         "duration": 2,
-        "hashtags": ["#Cultura", "#Historia", "#Arte", "#Exploración", "#Creatividad"],
-        "city": "64fa501d4bbe915a1f740586"
+        "hashtags": ["#Culture", "#History", "#Art", "#Exploration", "#Creativity"],
+        "city": ""
     },
     {
         "userName": "Álvaro Reyes",
-        "userPhoto": "https://robohash.org/alvaroreyes.png",
+        "userPhoto": "",
         "price": 2,
         "duration": 3,
-        "hashtags": ["#Naturaleza", "#Senderismo", "#Aventura", "#Exploración", "#Salud"],
-        "city": "64fa501d4bbe915a1f74058a"
+        "hashtags": ["#Nature", "#Hiking", "#Adventure", "#Exploration", "#Health"],
+        "city": ""
     },
     {
         "userName": "Luciana Martínez",
-        "userPhoto": "https://robohash.org/lucianamartinez.png",
+        "userPhoto": "",
         "price": 4,
         "duration": 4,
-        "hashtags": ["#Cultura", "#Fiestas", "#Diversión", "#Celebración", "#Música"],
-        "city": "64fa501d4bbe915a1f74058a"
+        "hashtags": ["#Culture", "#Parties", "#Fun", "#Celebration", "#Music"],
+        "city": ""
     }
 ];
+
 
 Itinerary.insertMany(itineraries)
     .then(() => {
