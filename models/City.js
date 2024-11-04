@@ -1,14 +1,36 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const citySchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    photo: { type: String, required: true },
-    country: { type: String, required: true },
-    continent: { type: String },
-    description: { type: String },
-    currency: { type: String }
-});
+const CitySchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    photo: {
+        type: String,
+        required: true
+    },
+    country: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    continent: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    description: {
+        type: String,
+        required: true
+    },
+    currency: {
+        type: String,
+        required: true,
+        trim: true
+    }
+}, { timestamps: true });
 
-const City = mongoose.model('City', citySchema);
+const City = mongoose.model("City", CitySchema);
 
 export default City;

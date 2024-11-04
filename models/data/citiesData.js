@@ -1,6 +1,6 @@
 import 'dotenv/config.js';
-import '../config/dataBase.js';
-import City from '../models/City.js';
+import '../../config/dataBase.js';
+import City from '../City.js';
 
 const cities = [
     { name: 'New York', photo: 'https://image.nuevayork.com/wp-content/uploads/2020/03/New-York-Helicopter-Tour-2.eric_both.bottom_right.jpg.webp', country: 'United States', continent: 'North America', description: 'The most populous city in the United States.', currency: 'USD' },
