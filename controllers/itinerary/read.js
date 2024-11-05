@@ -17,3 +17,13 @@ export const getItineraryById = async (req, res, next) => {
         next(error);
     }
 };
+
+export const getItinerariesByCityId = async (req, res, next) => {
+    try {
+        const { cityId } = req.params;
+        const itineraries = await Itinerary.find({ city: cityId });
+        return res.status(200).json({ response: itineraries });
+    } catch (error) {
+        next(error);
+    }
+};
