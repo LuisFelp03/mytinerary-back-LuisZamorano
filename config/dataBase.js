@@ -10,9 +10,9 @@ const url = process.env.URI_MONGO;
 const connectDatabase = async () => {
     try {
         await mongoose.connect(url);
-        console.log("Conectado a la base de datos");
+        console.log("Connected to the database");
     } catch (error) {
-        console.error("Error al conectar a la base de datos:", error);
+        console.error("Error connecting to database:", error);
         process.exit(1); // Salir del proceso en caso de error de conexión
     }
 };
