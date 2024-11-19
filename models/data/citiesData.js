@@ -1,6 +1,10 @@
+import mongoose from "mongoose";
 import 'dotenv/config.js';
-import '../../config/dataBase.js';
+import connectDatabase from "../../config/dataBase.js"; // Asegúrate de que la ruta sea correcta
 import City from '../City.js';
+
+// Conectar a la base de datos
+connectDatabase();
 
 const cities = [
     { name: 'New York', photo: 'https://image.nuevayork.com/wp-content/uploads/2020/03/New-York-Helicopter-Tour-2.eric_both.bottom_right.jpg.webp', country: 'United States', continent: 'North America', description: 'The most populous city in the United States.', currency: 'USD' },
@@ -29,4 +33,4 @@ City.insertMany(cities)
     .catch(error => {
         console.error("Error inserting cities:", error);
         process.exit(1);
-    });
+    }); 
