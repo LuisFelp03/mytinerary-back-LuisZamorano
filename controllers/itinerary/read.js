@@ -20,8 +20,8 @@ export const getItineraryById = async (req, res, next) => {
 
 export const getItinerariesByCityId = async (req, res, next) => {
     try {
-        const { cityId } = req.params; // Obtén el cityId de los parámetros de la URL
-        const itineraries = await Itinerary.find({ cityId: cityId }); // Cambia 'city' por 'cityId'
+        const { cityId } = req.params;
+        const itineraries = await Itinerary.find({ cityId: cityId });
         return res.status(200).json({ response: itineraries });
     } catch (error) {
         next(error);

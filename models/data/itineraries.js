@@ -16,7 +16,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 3,
             "hashtags": ["#Culture", "#Art", "#Paris", "#Exploration"],
-            "cityId": "6728c7e948470291eb95491f" // Paris
+            "cityId": "673a88e56209db7caff533c9" // Paris
         },
         {
             "publisherName": "Carlos Méndez",
@@ -24,7 +24,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 2,
             "hashtags": ["#Gastronomy", "#Paris", "#FrenchCuisine", "#Foodie"],
-            "cityId": "6728c7e948470291eb95491f" // Paris
+            "cityId": "673a88e56209db7caff533c9" // Paris
         },
         {
             "publisherName": "Lucía Pérez",
@@ -32,7 +32,7 @@ mongoose.connection.once("open", () => {
             "price": 5,
             "duration": 4,
             "hashtags": ["#London", "#Royalty", "#History", "#Architecture"],
-            "cityId": "6728c7e948470291eb954924" // London
+            "cityId": "673a88e56209db7caff533c7" // London
         },
         {
             "publisherName": "Fernando Silva",
@@ -40,7 +40,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 3,
             "hashtags": ["#London", "#Music", "#Nightlife", "#Fun"],
-            "cityId": "6728c7e948470291eb954924" // London
+            "cityId": "673a88e56209db7caff533c7" // London
         },
         {
             "publisherName": "Sofia Martinez",
@@ -48,7 +48,7 @@ mongoose.connection.once("open", () => {
             "price": 2,
             "duration": 5,
             "hashtags": ["#Tokyo", "#Anime", "#CulturalExperience", "#Adventure"],
-            "cityId": "6728c7e948470291eb954920" // Tokyo
+            "cityId": "673a88e56209db7caff533c2" // Tokyo
         },
         {
             "publisherName": "Pedro Gómez",
@@ -56,7 +56,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 3,
             "hashtags": ["#Tokyo", "#Technology", "#Innovation", "#Exploration"],
-            "cityId": "6728c7e948470291eb954920" // Tokyo
+            "cityId": "673a88e56209db7caff533c2" // Tokyo
         },
         {
             "publisherName": "Ana Costa",
@@ -64,7 +64,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 4,
             "hashtags": ["#Cairo", "#Pyramids", "#AncientHistory", "#Exploration"],
-            "cityId": "6728c7e948470291eb954922" // Cairo
+            "cityId": "673a88e56209db7caff533c6" // Cairo
         },
         {
             "publisherName": "Mario Ruiz",
@@ -72,7 +72,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 5,
             "hashtags": ["#Cairo", "#Markets", "#EgyptianCulture", "#Adventure"],
-            "cityId": "6728c7e948470291eb954922" // Cairo
+            "cityId": "673a88e56209db7caff533c6" // Cairo
         },
         {
             "publisherName": "Camila Vásquez",
@@ -80,7 +80,7 @@ mongoose.connection.once("open", () => {
             "price": 5,
             "duration": 3,
             "hashtags": ["#Toronto", "#Multicultural", "#ArtScene", "#Festivals"],
-            "cityId": "6728c7e948470291eb954927" // Toronto
+            "cityId": "673a88e56209db7caff533c1" // Toronto
         },
         {
             "publisherName": "Diego Morales",
@@ -88,7 +88,7 @@ mongoose.connection.once("open", () => {
             "price": 2,
             "duration": 2,
             "hashtags": ["#Toronto", "#Nature", "#Parks", "#Adventure"],
-            "cityId": "6728c7e948470291eb954927" // Toronto
+            "cityId": "673a88e56209db7caff533c1" // Toronto
         },
         {
             "publisherName": "Laura Herrera",
@@ -96,7 +96,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 4,
             "hashtags": ["#Berlin", "#History", "#Culture", "#Art"],
-            "cityId": "6728c7e948470291eb954928" // Berlin
+            "cityId": "673a88e56209db7caff533cb" // Berlin
         },
         {
             "publisherName": "Javier Ortiz",
@@ -104,7 +104,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 3,
             "hashtags": ["#Berlin", "#Nightlife", "#Music", "#Fun"],
-            "cityId": "6728c7e948470291eb954928" // Berlin
+            "cityId": "673a88e56209db7caff533cb" // Berlin
         },
         {
             "publisherName": "Martín Chávez",
@@ -112,7 +112,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 2,
             "hashtags": ["#BuenosAires", "#Tango", "#Dance", "#Culture"],
-            "cityId": "6728c7e948470291eb954923" // Buenos Aires
+            "cityId": "673a88e56209db7caff533c4" // Buenos Aires
         },
         {
             "publisherName": "Elena Rodríguez",
@@ -120,7 +120,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 3,
             "hashtags": ["#BuenosAires", "#Food", "#Cuisine", "#Adventure"],
-            "cityId": "6728c7e948470291eb954923" // Buenos Aires
+            "cityId": "673a88e56209db7caff533c4" // Buenos Aires
         },
         {
             "publisherName": "Andrés Luna",
@@ -128,7 +128,7 @@ mongoose.connection.once("open", () => {
             "price": 5,
             "duration": 4,
             "hashtags": ["#NewYork", "#Skyline", "#Photography", "#CityLife"],
-            "cityId": "6728c7e948470291eb95491e" // New York
+            "cityId": "673a88e56209db7caff533c5" // New York
         },
         {
             "publisherName": "Jessica Smith",
@@ -136,7 +136,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 3,
             "hashtags": ["#NewYork", "#Broadway", "#Shows", "#Entertainment"],
-            "cityId": "6728c7e948470291eb95491e" // New York
+            "cityId": "673a88e56209db7caff533c5" // New York
         },
         {
             "publisherName": "Nico Müller",
@@ -144,7 +144,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 2,
             "hashtags": ["#CapeTown", "#Mountains", "#Hiking", "#Nature"],
-            "cityId": "6728c7e948470291eb954929" // Cape Town
+            "cityId": "673a88e56209db7caff533c3" // Cape Town
         },
         {
             "publisherName": "Sarah Jacobs",
@@ -152,7 +152,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 5,
             "hashtags": ["#CapeTown", "#Beaches", "#Adventure", "#Sunsets"],
-            "cityId": "6728c7e948470291eb954929" // Cape Town
+            "cityId": "673a88e56209db7caff533c3" // Cape Town
         },
         {
             "publisherName": "Liam Brown",
@@ -160,7 +160,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 4,
             "hashtags": ["#Sydney", "#OperaHouse", "#Landmarks", "#Tour"],
-            "cityId": "6728c7e948470291eb954921" // Sydney
+            "cityId": "673a88e56209db7caff533ca" // Sydney
         },
         {
             "publisherName": "Emily Watson",
@@ -168,7 +168,7 @@ mongoose.connection.once("open", () => {
             "price": 5,
             "duration": 3,
             "hashtags": ["#Sydney", "#Beaches", "#Surfing", "#Relax"],
-            "cityId": "6728c7e948470291eb954921" // Sydney
+            "cityId": "673a88e56209db7caff533ca" // Sydney
         },
         {
             "publisherName": "Marco Romano",
@@ -176,7 +176,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 5,
             "hashtags": ["#Rome", "#History", "#Colosseum", "#Ancient"],
-            "cityId": "6728c7e948470291eb95492c" // Rome
+            "cityId": "673a88e56209db7caff533cd" // Rome
         },
         {
             "publisherName": "Giulia Bianchi",
@@ -184,7 +184,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 4,
             "hashtags": ["#Rome", "#Vatican", "#Art", "#Religion"],
-            "cityId": "6728c7e948470291eb95492c" // Rome
+            "cityId": "673a88e56209db7caff533cd" // Rome
         },
         {
             "publisherName": "Ivan Petrov",
@@ -192,7 +192,7 @@ mongoose.connection.once("open", () => {
             "price": 5,
             "duration": 3,
             "hashtags": ["#Moscow", "#RedSquare", "#Architecture", "#History"],
-            "cityId": "6728c7e948470291eb954925" // Moscow
+            "cityId": "673a88e56209db7caff533cc" // Moscow
         },
         {
             "publisherName": "Anastasia Ivanova",
@@ -200,7 +200,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 4,
             "hashtags": ["#Moscow", "#Culture", "#Theatre", "#Museums"],
-            "cityId": "6728c7e948470291eb954925" // Moscow
+            "cityId": "673a88e56209db7caff533cc" // Moscow
         },
         {
             "publisherName": "Ahmed Al-Farsi",
@@ -208,7 +208,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 3,
             "hashtags": ["#Dubai", "#Luxury", "#Shopping", "#Skyline"],
-            "cityId": "6728c7e948470291eb95492a" // Dubai
+            "cityId": "673a88e56209db7caff533ce" // Dubai
         },
         {
             "publisherName": "Zahra Abdullah",
@@ -216,7 +216,7 @@ mongoose.connection.once("open", () => {
             "price": 5,
             "duration": 2,
             "hashtags": ["#Dubai", "#Desert", "#Adventure", "#Safari"],
-            "cityId": "6728c7e948470291eb95492a" // Dubai
+            "cityId": "673a88e56209db7caff533ce" // Dubai
         },
         {
             "publisherName": "Somchai Phong",
@@ -224,7 +224,7 @@ mongoose.connection.once("open", () => {
             "price": 4,
             "duration": 3,
             "hashtags": ["#Bangkok", "#Temples", "#Culture", "#Markets"],
-            "cityId": "6728c7e948470291eb95492b" // Bangkok
+            "cityId": "673a88e56209db7caff533cf" // Bangkok
         },
         {
             "publisherName": "Amina Chalerm",
@@ -232,7 +232,7 @@ mongoose.connection.once("open", () => {
             "price": 3,
             "duration": 5,
             "hashtags": ["#Bangkok", "#StreetFood", "#NightMarket", "#Vibrant"],
-            "cityId": "6728c7e948470291eb95492b" // Bangkok
+            "cityId": "673a88e56209db7caff533cf" // Bangkok
         }
     ];
 
